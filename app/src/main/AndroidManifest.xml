@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.vehiclemanagementsystem"
+    android:supportsRtl="true"
+    tools:ignore="RtlEnabled">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.VehicleManagementSystem">
+        <activity
+            android:name=".ui.activities.VehicleRenewalActivity"
+            android:theme="@style/Theme.VehicleManagementSystem.NoActionBar" />
+
+        <activity
+            android:name=".ui.activities.PayInsuranceActivity"
+            android:theme="@style/Theme.VehicleManagementSystem.NoActionBar" />
+
+        <activity
+            android:name=".ui.activities.InsuranceActivity"
+            android:theme="@style/Theme.VehicleManagementSystem.NoActionBar" />
+        <activity
+            android:name=".ui.activities.DeleteActivity"
+            android:theme="@style/Theme.VehicleManagementSystem.PopUp" />
+        <activity
+            android:name=".ui.activities.PayActivity"
+            android:theme="@style/Theme.VehicleManagementSystem.NoActionBar" />
+
+        <activity
+            android:name=".ui.activities.InfractionsActivity"
+            android:theme="@style/Theme.VehicleManagementSystem.NoActionBar" />
+        <activity
+            android:name=".ui.activities.VehicleDetailsActivity"
+            android:theme="@style/Theme.VehicleManagementSystem.NoActionBar" />
+        <activity
+            android:name=".ui.activities.MainActivity"
+            android:label="@string/title_activity_main"
+            android:theme="@style/Theme.VehicleManagementSystem.NoActionBar" />
+        <activity
+            android:name=".ui.activities.LoginActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name=".ui.activities.SignUpActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name=".ui.activities.Splash"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1006236310890",
+    "project_id": "jordan-dvm",
+    "storage_bucket": "jordan-dvm.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1006236310890:android:fd03b076dfb56ad3151913",
+        "android_client_info": {
+          "package_name": "com.example.vehiclemanagementsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1006236310890-jb2rl67gf1u7mvcblv5r4qurl651f87c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.vehiclemanagementsystem",
+            "certificate_hash": "89d8b9e2b16bd9c9b537cda8070ea3d7e1202887"
+          }
+        },
+        {
+          "client_id": "1006236310890-d81qhvnf6bvaqtmug3vntssi03e2prr4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_cxSRIQWp0P0eKE-BLBth5heyTjvFIFo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1006236310890-d81qhvnf6bvaqtmug3vntssi03e2prr4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

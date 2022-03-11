@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Jordan DMV</string>
+
+    <string name="register">تسجيل</string>
+    <string name="email">البريد اللإلكتروني</string>
+    <string name="password">كلمة السر</string>
+    <string name="already_have_acc">هل لديك حساب؟ تسجيل الدخول</string>
+    <string name="do_not_have_acc">ليس لديك حساب؟ تسجيل</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="forgot_password">هل نسيت كلمة المرور؟</string>
+    <string name="jordan_dvm">Jordan DMV</string>
+    <string name="name">الإسم</string>
+    <string name="phone_number">رقم الهاتف</string>
+    <string name="id_number">الرقم الوطني</string>
+
+    <string name="correct_email">Please correct your email</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="menu_home">الرئيسية</string>
+    <string name="add_car">اضافة مركبة</string>
+    <string name="add_car_ed">اضافة المركبة</string>
+    <string name="settings">الإعدادات</string>
+    <string name="logout">تسجيل الخروج</string>
+    <string name="prefix_number">الترميز</string>
+    <string name="car_number">رقم اللوحة</string>
+    <string name="owner_name">إسم مالك المركبة</string>
+    <string name="registration_number">رقم التسجيل</string>
+    <string name="details">تفاصيل</string>
+    <string name="license_expiry_date">مرخصة لغاية</string>
+    <string name="license_expiration_date">License expiration date</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+
+
+</resources>

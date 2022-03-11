@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ui.fragments.AddVehicleFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/_50sdp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_222sdp"
+            android:gravity="top"
+            android:src="@drawable/logo" />
+
+        <androidx.legacy.widget.Space
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_10sdp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+
+            <EditText
+                android:id="@+id/ed_addcar_car_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_text"
+                android:hint="@string/car_number"
+                android:inputType="number"
+                android:layout_weight="2.5"
+                android:maxLength="5"
+                android:maxLines="1"
+                android:padding="5sp"
+                android:textColor="@color/black"
+                android:textSize="@dimen/newsMoreTextSize" />
+
+            <androidx.legacy.widget.Space
+                android:layout_width="@dimen/_10sdp"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/ed_addcar_pre_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_text"
+                android:hint="@string/prefix_number"
+                android:layout_weight=".5"
+                android:inputType="number"
+                android:maxLength="2"
+                android:maxLines="1"
+                android:padding="5sp"
+                android:textColor="@color/black"
+                android:textSize="@dimen/newsMoreTextSize" />
+
+        </LinearLayout>
+
+        <androidx.legacy.widget.Space
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_10sdp" />
+
+        <EditText
+            android:id="@+id/ed_addcar_registration_num"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_text"
+            android:hint="@string/registration_number"
+            android:inputType="number"
+            android:maxLength="10"
+            android:maxLines="1"
+            android:padding="5sp"
+            android:textColor="@color/black"
+            android:textSize="@dimen/newsMoreTextSize" />
+
+        <androidx.legacy.widget.Space
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_10sdp" />
+
+        <Button
+            android:id="@+id/btn_addcar_add"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_text"
+            android:text="@string/add_car_ed"
+            android:textStyle="bold"
+            android:textAllCaps="false" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

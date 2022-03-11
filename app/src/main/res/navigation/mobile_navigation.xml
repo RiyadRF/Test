@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.vehiclemanagementsystem.ui.fragments.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_add_car"
+        android:name="com.example.vehiclemanagementsystem.ui.fragments.AddVehicleFragment"
+        android:label="@string/add_car"
+        tools:layout="@layout/fragment_add_vehicle" />
+
+    <fragment
+        android:id="@+id/nav_change_password"
+        android:name="com.example.vehiclemanagementsystem.ui.fragments.ChangePasswordFragment"
+        android:label="تغيير كلمة المرور"
+        tools:layout="@layout/fragment_change_password" />
+    <fragment
+        android:id="@+id/nav_check_center"
+        android:name="com.example.vehiclemanagementsystem.ui.fragments.CheckCenterFragment"
+        android:label="مراكز الفحص المعتمدة"
+        tools:layout="@layout/fragment_check_center" />
+    <fragment
+        android:id="@+id/nav_logout"
+        android:name="com.example.vehiclemanagementsystem.ui.fragments.LogoutFragment"
+        android:label="@string/logout"
+        tools:layout="@layout/fragment_logout" />
+
+
+</navigation>
